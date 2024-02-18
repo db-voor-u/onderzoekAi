@@ -58,7 +58,7 @@
 
 <body>
     <div class="container">
-        <h2>Contact met on opnemen.</h2>
+        <h2>Contact ons.</h2>
         <div class="message-box">
             @if (session('success'))
             <p>{{ session('success') }}</p>
