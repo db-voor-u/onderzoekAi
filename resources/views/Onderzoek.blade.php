@@ -116,7 +116,7 @@
                 <option value="loodgieterij">Loodgieterij</option>
                 <option value="elektra">Elektra</option>
                 <option value="arco">Arco/Warmtpomp</option>
-                <option value="arco">Arco/Warmtpomp</option>
+               
                 <!-- Voeg hier meer opties toe indien nodig -->
             </select>
 
