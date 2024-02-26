@@ -39,7 +39,7 @@ class SurveyController extends Controller
 
         Mail::send('emails.survey', $data, function ($message) use ($data) {
             // Zorg ervoor dat u hier het juiste e-mailadres van de ontvanger plaatst
-            $message->to('aiconnectmonteurs@gmail.com', 'AI Connect Monteurs')
+            $message->to('receptieemail@mail.com', 'AI Connect Monteurs')
                 ->subject('Nieuwe Survey Inzending');
         });
 
