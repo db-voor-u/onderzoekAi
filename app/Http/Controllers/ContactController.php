@@ -24,7 +24,7 @@ class ContactController extends Controller
 
         // Maak een nieuwe ContactUs Mailable
         $email = new ContactUs($validatedData['name'], $validatedData['email'], $validatedData['message']);
-        Mail::to('aiconnectmonteurs@gmail.com')->send($email);
+        Mail::to('receptieemail@mail.com')->send($email);
 
         return redirect()->back()->with('success', 'Bedankt voor uw bericht. We nemen zo snel mogelijk contact met u op.');
     }
